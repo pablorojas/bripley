@@ -245,6 +245,7 @@
 }
 .lista-seguros ul li a:hover{
 	text-decoration: underline;
+	color: #662869;
 }
 .seguro-detalle{
 	width: 100%;
