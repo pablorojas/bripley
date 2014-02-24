@@ -296,40 +296,107 @@
     <table class="table t-medium table-responsive">
       <thead>
         <th>Coberturas</th>
-        <th class="textomorado text-center">Plan E</th>
-        <th class="textomorado text-center">Plan F</th>
-        <th class="textomorado text-center">Plan G</th>
-        <th class="textomorado text-center">Plan H</th>
+        <th class="textomorado text-center">Incendio, riesgos de naturaleza y acciones de terceros</th>
+        <th class="textomorado text-center">Sismo</th>
+        <th class="textomorado text-center">Robo y Asalto</th>
       </thead>
       <tr>
-        <td>Incendio, riesgos de naturaleza y acciones de terceros</td>
+        <td><input type="radio" name="cuenta"><b class="labelTable"></b><label>Plan E</label></td>
         <td class="text-center">UF 500</td>
         <td class="text-center">UF 500</td>
-        <td class="text-center">UF 1000</td>
         <td class="text-center">UF 1000</td>
       </tr>
       <tr>
-        <td>Sismo</td>
+        <td><input type="radio" name="cuenta"><b class="labelTable"></b><label>Plan F</label></td>
         <td class="text-center">UF 500</td>
         <td class="text-center">UF 500</td>
-        <td class="text-center">UF 1000</td>
         <td class="text-center">UF 1000</td>
       </tr>
       <tr>
-        <td>Robo y Asalto</td>
+        <td><input type="radio" name="cuenta"><b class="labelTable"></b><label>Plan G</label></td>
         <td class="text-center">---</td>
         <td class="text-center">UF 500</td>
         <td class="text-center">---</td>
-        <td class="text-center">UF 1000</td>
       </tr>
       <tr>
-        <td>Sismo</td>
+        <td><input type="radio" name="cuenta"><b class="labelTable"></b><label>Plan H</label></td>
         <td class="text-center">UF 500</td>
         <td class="text-center">UF 500</td>
-        <td class="text-center">UF 1000</td>
         <td class="text-center">UF 1000</td>
       </tr>
     </table>
+    <div class="paso t-normal sin-numero">
+      <p>Datos contratante (Pagador)</p>
+    </div>     
+    <div class="formCampo"> 
+    <table class="table">                             
+      <tr>
+        <td>Nombre</td>
+        <td>Augusto Roberto Bastidas Collao</td>
+      </tr>
+      <tr>
+        <td>Rut</td>
+        <td>7.362.762.7</td>
+      </tr>
+    </table>
+ <div class="formCampo"> 
+    <label>Telefono fijo</label>
+    <div class="selectBox small">
+    <div class="box">--</div>
+      <select onchange="this.parentNode.getElementsByTagName('div')[0].innerHTML = this.options[this.selectedIndex].text">
+      <option>00</option>
+      <option>00</option>
+      <option>00</option>
+      <option>00</option>
+      </select>
+    </div>
+    <div class="input-group mid">
+      <input class="form-control" type="text"/>
+    </div>
+  </div>
+    <div class="formCampo"> 
+    <label>Telefono Celular</label>
+    <div class="selectBox small">
+    <div class="box">--</div>
+    <select onchange="this.parentNode.getElementsByTagName('div')[0].innerHTML = this.options[this.selectedIndex].text">
+    <option>00</option>
+    <option>00</option>
+    <option>00</option>
+    <option>00</option>
+    </select>
+    </div>
+    <div class="input-group mid">
+    <input class="form-control" type="text"/>
+    </div>
+    </div>
+    <div class="formCampo"> 
+    <label>Email</label>
+    <div class="input-group">
+    <input class="form-control" type="text"/>
+    </div>
+    </div>
+    <div class="paso t-normal sin-numero margen-b">
+
+    <p>Confirmar solicitud de tarjeta</p>
+    </div>
+    <table class="table">
+    <tr>
+    <td><label>Ingrese su clave Internet:</label>
+
+    <div class="input-group">
+    <input class="form-control" type="password"/>
+    </div>
+    </td>
+    </tr>
+    </table>
+
+
+
+    <div class="f-right">
+    <a class="btn btn-en" href="sp2_01_00_tarjeta_de_credito.html">Cancelar</a>
+    <a class="btn btn-trans" href="sp2_01_00_tarjeta_de_credito_solicitatarjeta_paso4.html">Enviar Solicitud</a>   
+    </div> 
+    </div>
 
 
 
