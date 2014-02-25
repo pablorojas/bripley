@@ -227,7 +227,7 @@
 
                      <div class="f-right">
                         <button type="button" class="btn btn-en" data-dismiss="modal">Cancelar</button>
-                        <a class="btn btn-trans" href="sp3_01_00_Transferencias_programadas_confirmareliminar.html">Aceptar</a>
+                        <a class="current btn btn-trans" href="sp3_01_00_Transferencias_programadas_confirmareliminar.html">Aceptar</a>
                     </div>                       
                     </div>
                 </div>
@@ -277,7 +277,7 @@
     </ul>
 </nav>
                 </div>
-            </header> 
+            </header>
 
   <div class="row">
      
@@ -328,77 +328,91 @@
 </div>
     </div>
     <section id="contenido-central" class="column9 last fullWidth pad-tb">
-      <h2>&Uacute;ltimos Movimientos</h2>
+      <h2>Transferencias</h2> 
   <nav class="menu-contextual">
-        <ul class="nav nav-tabs">
-          <li><a href="sp2_01_00_ultimos_movimientos_cuentacorriente_seleccion.html">Cuenta Corriente</a></li>
-          <li class="current active"><a class='current' href="sp2_01_00_ultimos_movimientos_cuentavista.html">Cuenta Vista</a></li>
-          <li><a href="sp2_01_00_ultimos_movimientos_lineadecredito_seleccion.html">L&iacute;nea de Cr&eacute;dito</a></li>
-          <li><a href="sp2_01_00_ultimos_movimientos_tarjetadecredito.html">Tarjeta de Cr&eacute;dito</a></li>
-        </ul> 
+
         <div class="selectMenu selectBox">
             <div class="box">Seleccion de Servicio o Seccion</div>
         </div>
     </nav>
     
     <div class="column12 last pad-all fullWidth contenedor">
-      
 
-     
-    <form>
-         <table class="table tabla-detalle-cliente">
-          <thead>
-            <th class="fullWidth border-right">
-              AUGUSTO ROBERTO BASTIDAS COLLAO
-            </th>
-            
-          </thead>
-          <tr>
            
-            <td>
-              <table class="t-small f-right">
-                <tr>
-                  <td class="pad-left">
-                      Fecha 02/08/2013
-                  </td>
-                  <td class="pad-left">
-                    Hora 9:29
-                  </td>
-                </tr>
-              </table>
-            </td>  
-          </tr>
-        </table>
-      
-      <div class="column12">
+      <form>
+                <div class="column12">
+    
+
+                </div>
                    <div class="paso t-normal sin-numero">
                     
-                    <p>Seleccione Cuenta</p>
+                    <p>Confirmar eliminar transferencia</p>
                 </div>
-                    <table class="table t-medium table-responsive">
+                <div class="column12 fullWidth">
+                    <table class="table t-medium">
                         <tr>
-                            <td><input type="radio" name="cuenta"><b class="labelTable">Cuenta(s)</b><label>Cuenta Vista 0-000-00-00000-00</label></td>
+                            <td width="3%"></td>
+                            <td width="25%"><label>Ingrese su clave Internet:</label></td>
+                            <td>
+                                <div class="input-group">
+                                    <input class="form-control" type="password"/>
+                                </div>
+                            </td>
                         </tr>
-                        <tr>
-                            <td><input type="radio" name="cuenta"><b class="labelTable">Cuenta(s)</b><label>Cuenta Vista 0-000-00-00000-00</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="radio" name="cuenta"><b class="labelTable">Cuenta(s)</b><label>Cuenta Vista 0-000-00-00000-00</label></td>
-                        </tr>
+                            
                     </table>
-        </div>
-         <div class="f-right">
-          <a class="btn btn-en" href="sp2_01_00_ultimos_movimientos.html">Salir</a>
-          <a class="btn btn-trans" href="sp2_01_00_ultimos_movimientos_cuentavista_ultimosmovimientos.html">Aceptar</a>   
-      </div> 
-    </form> 
-
-     
-
-    </div>
+                    <div class="f-right">
+                        <a class="btn btn-en" href="sp3_01_00_Transferencias.html">Cancelar</a>
+                        <a class="btn btn-se" href="sp3_01_00_Transferencias_programadas.html">Volver</a>
+                        <a class="btn btn-trans" href="sp3_01_00_Transferencias_programadas_eliminarexito.html">Aceptar</a>
+                    </div>
+                </div>
+            </form>
+      
+      
     </section>
 
     </div>
   </div>
   
-<!-- @include _footer
+
+
+
+
+
+<footer id="main-footer">
+	<div class="info-footer row">
+		<div class="column4">
+			<div class="info-telefonos">
+				<div class="img-telefono"><img src="assets/img/telefono.png"/></div>
+				<div class="telefono">Banca Tel&eacute;fonica<div class="numero-telefono">800 20 32</div></div>
+				<div class="telefono">Desde Celulares<div class="numero-telefono">(02) 2 694 41 690</div></div>
+			</div>	
+		</div>
+		<div class="column4">
+			<div class="info-corporativa">
+				<p>Informaci&oacute;n Corporativa</p>
+					<ul>
+						<li><a href="#">Pizarra de Tasas</a></li>
+						<li><a href="#">Tarifas y Gastos</a></li>
+						<li><a href="#">Defensoria del Cliente Bancario</a></li>
+						<li><a href="#">Gu&iacute;a para el Cliente Bancario</a></li>
+						<li><a href="#">C&oacute;digo de Buena Conducto y Buenas Pr&aacute;cticas de Bancos e Instituciones Financieras</a></li>
+					</ul>
+			</div>		
+		</div>
+		<div class="column4 last">
+			<div class="info-logo">
+				<img src="assets/img/bripley-logofooter.png">
+			</div>	
+		</div>
+	</div>
+	<div class="legal">
+		<p>Inf&oacute;rmese  sobre la garant&iacute;a estatal de los dep&oacute;sitos en su banco o en <a href="#">sbif.cl</a> BancoRipley.cl  Copyright 2002-2003 - Todos los derechos reservados. </p>
+	</div>
+
+</footer>
+
+</body>
+
+</html>
